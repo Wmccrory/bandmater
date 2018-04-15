@@ -1,0 +1,19 @@
+/* RESET */
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	/* This defines what other heights translate to, this is roughly 10px */
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Jura', serif;
+}

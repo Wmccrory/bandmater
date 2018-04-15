@@ -1,0 +1,13 @@
+.landing h1 {
+	font-family: 'Gugi', cursive;
+	font-size: 10rem;
+	letter-spacing: 2.5rem;
+	text-transform: uppercase;
+}
+
+.landing h2 {
+	font-family: 'Gugi', cursive;
+	font-size: 3rem;
+	letter-spacing: 1.2rem;
+	text-transform: uppercase;
+}
