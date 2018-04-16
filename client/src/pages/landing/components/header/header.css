@@ -1,0 +1,99 @@
+.header {
+	height: 100vh;
+	background-image: linear-gradient(
+		to bottom right,
+		 rgba(128, 0, 128, 0.3),
+		  rgba(0,0,0,.3));
+	position: relative;
+	text-align: center;
+	-webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+	clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+}
+
+/* Background video */
+.header__bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	/* opacity: .2; */
+	overflow: hidden;
+}
+
+	.header__bg-video__content {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		filter: brightness(.3);
+	}
+
+/* Text box */
+
+.header__text-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.header__text-box h1 {
+	animation: textShrink 1.5s ease-out;
+}
+
+.header__text-box h2 {
+	animation: fadeIn 2s ease-out;
+}
+
+/* Button */
+
+.header__btn {
+	margin-top: 6rem;
+	transition: all .2s;
+}
+
+.header__btn:hover {
+	transform: translateY(-5px);
+}
+
+.header__btn:active {
+	transform: translateY(-3px);
+}
+
+.header__btn a:hover {
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.header__btn a:active{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+}
+
+.header__btn a,
+.header__btn a:visited {
+	font-size: 2rem;
+	letter-spacing: 1rem;
+	text-decoration: none;
+	color: #f2f3f4;
+	background: rgba(0,0,0,.3);
+	padding: 1.5rem 2rem;
+	border-radius: 20rem;
+	border: solid 5px #f2f3f4;
+	transition: all .2s;
+	animation: fadeIn 2s ease-out;
+}
+
+/* Animations */
+
+@keyframes textShrink {
+	0% {
+		letter-spacing: 6rem;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+}

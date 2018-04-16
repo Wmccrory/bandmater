@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 import Landing from "./pages/landing/Landing";
 const Dashboard = () => {return <h1>Dashboard</h1>};

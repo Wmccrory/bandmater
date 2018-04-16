@@ -1,0 +1,12 @@
+.additional {
+	height: 100vh;
+	/* background-image: 
+		linear-gradient(
+			to bottom right,
+			rgba(61, 11, 61, 0.9),
+			rgba(0, 0, 0, .9)
+		),
+		url("./assets/background.jpg");
+	background-size: cover; */
+	border-top: solid 2px #f3f4f5;
+}

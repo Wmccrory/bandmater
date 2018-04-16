@@ -1,0 +1,27 @@
+.features {
+	color: #f3f4f5;
+	padding: 10rem;
+
+	background-image: 
+	linear-gradient(
+		to bottom right,
+		rgba(61, 11, 61, 0.9),
+		rgba(0, 0, 0, .9)
+	),
+	url("./assets/background.jpg");
+	background-size: cover;
+}
+
+.features h2 {
+	margin-bottom: 5rem;
+}
+
+.features__list {
+	font-size: 2.4rem;
+	margin-bottom: 5rem;
+	margin-left: 5rem;
+}
+
+.features__list li {
+	margin-bottom: 3rem;
+}

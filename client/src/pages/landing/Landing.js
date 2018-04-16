@@ -1,11 +1,18 @@
 import React from "react";
 import "./landing.css";
 
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Features from "./components/features/Features";
+import Additional from "./components/additional/Additional";
+
 const Landing = () => {
 	return (
 		<div className="landing">
-			<h1>Bandmater</h1>
-			<h2>Connecting bands, fans, and venues</h2>
+			<Header />
+			<About />
+			<Features />
+			<Additional />
 		</div>
 	)
 }
